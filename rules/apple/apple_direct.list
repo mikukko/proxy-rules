@@ -1,0 +1,137 @@
+# NAME: Apple Direct
+# PURPOSE: Direct-route Apple infrastructure left unmatched by upstream proxy rules.
+# ORDER: Place after AppleProxy, AppleMusic, and Apple-AI proxy rule sets.
+# SOURCES:
+# https://support.apple.com/101555
+# https://ruleset.skk.moe/List/domainset/apple_cdn.conf
+# UPSTREAM PROXY RULE SETS:
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list
+# https://raw.githubusercontent.com/RocM301/Apple-Rule/refs/heads/main/Apple-AI.list
+
+# Device activation and connectivity
+DOMAIN,albert.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,edge.apple
+DOMAIN,gs.apple.com
+DOMAIN,humb.apple.com
+DOMAIN,static.ips.apple.com
+DOMAIN,sq-device.apple.com
+DOMAIN,tbsc.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time-macos.apple.com
+DOMAIN,time.apple.com
+
+# Apple Push Notification service
+DOMAIN-SUFFIX,push.apple.com
+
+# Apple Account
+DOMAIN,account.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,idmsa.apple.com
+
+# Certificate validation and security
+DOMAIN,certs.apple.com
+DOMAIN,crl.apple.com
+DOMAIN,doh.dns.apple.com
+DOMAIN,ocsp.digicert.cn
+DOMAIN,ocsp2.apple.com
+DOMAIN,valid.apple.com
+DOMAIN-SUFFIX,appattest.apple.com
+DOMAIN-SUFFIX,safebrowsing.apple
+
+# iCloud, Find My, and shared content
+DOMAIN,fmfmobile.icloud.com
+DOMAIN,fmipmobile.icloud.com
+DOMAIN,metrics.icloud.com
+DOMAIN,pong.icloud.com
+DOMAIN,probe.icloud.com
+DOMAIN,statici.icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud-content.com.cn
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,iwork.apple.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,me.com
+
+# Maps, weather, and location data
+DOMAIN,gs-loc-cn.apple.com
+DOMAIN,gs-loc.apple.com
+DOMAIN,maps.apple.com
+DOMAIN,stocks-sparkline.apple.com
+DOMAIN,weather-data.apple.com
+DOMAIN,weather-map.apple.com
+DOMAIN,weather-map2.apple.com
+DOMAIN,weatherkit.apple.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-maps.cn
+DOMAIN-SUFFIX,cdn-apple-mapkit.com
+DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net
+DOMAIN-SUFFIX,weather-data.apple.com.akadns.net
+
+# App and static content delivery
+DOMAIN,audiocontentdownload.apple.com
+DOMAIN,download.developer.apple.com
+DOMAIN,itunes.com
+DOMAIN,playgrounds-assets-cdn.apple.com
+DOMAIN,playgrounds-cdn.apple.com
+DOMAIN,ppq.apple.com
+DOMAIN,store.apple.com
+DOMAIN,sylvan.apple.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple.com.cdn20.com
+DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
+DOMAIN-SUFFIX,apple.com.mwcname.com
+DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,store.apple.com.edgekey.net
+DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net
+DOMAIN-SUFFIX,www.apple.com.edgekey.net
+
+# Software updates and recovery
+DOMAIN,appldnld.apple.com
+DOMAIN,configuration.apple.com
+DOMAIN,gdmf-ados.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,gg.apple.com
+DOMAIN,gsra.apple.com
+DOMAIN,ig.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,oscdn.apple.com
+DOMAIN,osrecovery.apple.com
+DOMAIN,skl.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,swdist.apple.com
+DOMAIN,swdownload.apple.com
+DOMAIN,swscan.apple.com
+DOMAIN,wkms-public.apple.com
+DOMAIN,xp.apple.com
+DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
+DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,iphone-ld.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,swdist.apple.com.akadns.net
+DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net
+
+# Web, diagnostics, and associated domains
+DOMAIN,app-site-association.networking.apple
+DOMAIN,bpapi.apple.com
+DOMAIN,cssubmissions.apple.com
+DOMAIN,diagassets.apple.com
+DOMAIN,fba.apple.com
+DOMAIN,lcdn-locator.apple.com
+DOMAIN,lcdn-registration.apple.com
+DOMAIN,serverstatus.apple.com
+DOMAIN,suconfig.apple.com
+DOMAIN,support.apple.com
+DOMAIN,www.apple.com
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.com.cn
