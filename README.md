@@ -6,12 +6,13 @@
 
 | 规则 | 文件 | 订阅地址 |
 | --- | --- | --- |
+| Apple APNs | [`apple_apns.list`](rules/apple/apple_apns.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/apple/apple_apns.list) |
 | Apple Direct | [`apple_direct.list`](rules/apple/apple_direct.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/apple/apple_direct.list) |
 | Augment | [`augment.list`](rules/augment/augment.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/augment/augment.list) |
 | Cursor | [`cursor.list`](rules/cursor/cursor.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/cursor/cursor.list) |
 | Windsurf | [`windsurf.list`](rules/windsurf/windsurf.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/windsurf/windsurf.list) |
 
-> `Apple Direct` 是后置直连白名单，应放在 AppleProxy、AppleMusic 和 Apple-AI 代理规则之后使用。
+> `Apple APNs` 应优先于其他 Apple 规则加载，以便为推送流量指定独立策略。`Apple Direct` 是后置直连白名单，应放在 Apple APNs、AppleProxy、AppleMusic 和 Apple-AI 规则之后使用。
 
 规则文件使用通用 Rule Set 写法，目前主要维护域名后缀规则：
 

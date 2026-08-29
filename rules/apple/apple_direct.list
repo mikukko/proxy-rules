@@ -1,6 +1,6 @@
 # NAME: Apple Direct
 # PURPOSE: Direct-route Apple infrastructure left unmatched by upstream proxy rules.
-# ORDER: Place after AppleProxy, AppleMusic, and Apple-AI proxy rule sets.
+# ORDER: Place after Apple APNs, AppleProxy, AppleMusic, and Apple-AI rule sets.
 # SOURCES:
 # https://support.apple.com/101555
 # https://ruleset.skk.moe/List/domainset/apple_cdn.conf
@@ -21,9 +21,6 @@ DOMAIN,tbsc.apple.com
 DOMAIN,time-ios.apple.com
 DOMAIN,time-macos.apple.com
 DOMAIN,time.apple.com
-
-# Apple Push Notification service
-DOMAIN-SUFFIX,push.apple.com
 
 # Apple Account
 DOMAIN,account.apple.com
@@ -70,8 +67,6 @@ DOMAIN,weatherkit.apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple-maps.cn
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
-DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,weather-data.apple.com.akadns.net
 
 # App and static content delivery
 DOMAIN,audiocontentdownload.apple.com
@@ -87,11 +82,6 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,apple.com.cdn20.com
 DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
 DOMAIN-SUFFIX,apple.com.mwcname.com
-DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,store.apple.com.edgekey.net
-DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net
-DOMAIN-SUFFIX,www.apple.com.edgekey.net
 
 # Software updates and recovery
 DOMAIN,appldnld.apple.com
@@ -112,14 +102,6 @@ DOMAIN,swscan.apple.com
 DOMAIN,wkms-public.apple.com
 DOMAIN,xp.apple.com
 DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
-DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,iphone-ld.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,swdist.apple.com.akadns.net
-DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net
 
 # Web, diagnostics, and associated domains
 DOMAIN,app-site-association.networking.apple
