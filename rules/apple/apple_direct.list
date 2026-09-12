@@ -1,6 +1,6 @@
 # NAME: Apple Direct
 # PURPOSE: Direct-route Apple infrastructure left unmatched by upstream proxy rules.
-# ORDER: Place after Apple APNs, AppleProxy, AppleMusic, and Apple-AI rule sets.
+# ORDER: Place after Apple APNs and Apple Proxy rule sets, before AppleMusic and Apple-AI rule sets.
 # SOURCES:
 # https://support.apple.com/101555
 # https://ruleset.skk.moe/List/domainset/apple_cdn.conf
@@ -67,6 +67,12 @@ DOMAIN,weatherkit.apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple-maps.cn
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
+
+# App Store storefront and app downloads
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,blobstore.apple.com
 
 # App and static content delivery
 DOMAIN,audiocontentdownload.apple.com
