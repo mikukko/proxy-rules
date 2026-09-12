@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,ydycdn.com
 DOMAIN-SUFFIX,qrstuvwxyzab.com
 
 # Douyin core
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,amemv.cn
 DOMAIN-SUFFIX,amemv.net
