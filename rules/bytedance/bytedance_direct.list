@@ -1,0 +1,13 @@
+# NAME: ByteDance Direct
+# PURPOSE: Direct-route Douyin/ByteDance domestic domains misrouted by upstream proxy rule sets.
+# ORDER: Place before TikTok and other ByteDance-related proxy rule sets.
+# UPSTREAM PROXY RULE SETS:
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+
+# Douyin and ByteDance domestic API and CDN
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,amemv.com
+
+# Shared with overseas TikTok by upstream TikTok.list; keep proxied unless Douyin images fail
+# DOMAIN-SUFFIX,ibyteimg.com
