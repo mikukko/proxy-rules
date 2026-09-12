@@ -1,0 +1,9 @@
+# NAME: Mikukko
+# PURPOSE: Personally owned domains and their subdomains.
+# ORDER: Place before general proxy rule sets so own domains always win.
+# NOTE: Assign a regular proxy policy to this rule set; chained/relay policies
+# are unnecessary for personally owned domains.
+
+DOMAIN-SUFFIX,061359.xyz
+DOMAIN-SUFFIX,mikukko.com
+DOMAIN-SUFFIX,mikuz.de
