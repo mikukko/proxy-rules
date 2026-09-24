@@ -4,6 +4,7 @@
 # SOURCES:
 # https://support.apple.com/101555
 # https://ruleset.skk.moe/List/domainset/apple_cdn.conf
+# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/itunes
 # UPSTREAM PROXY RULE SETS:
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list
@@ -38,6 +39,7 @@ DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,safebrowsing.apple
 
 # iCloud, Find My, and shared content
+DOMAIN,apple-native-relay.apple.com
 DOMAIN,fmfmobile.icloud.com
 DOMAIN,fmipmobile.icloud.com
 DOMAIN,metrics.icloud.com
@@ -47,9 +49,11 @@ DOMAIN,statici.icloud.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,gc.apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-content.com.cn
 DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,iwork.apple.com
 DOMAIN-SUFFIX,mac.com
@@ -69,17 +73,26 @@ DOMAIN-SUFFIX,apple-maps.cn
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
 
 # App Store storefront and app downloads
+# Keep iTunes hosts explicit so Apple Music endpoints can still use its proxy rule set.
+DOMAIN,bag.itunes.apple.com
+DOMAIN,client-api.itunes.apple.com
+DOMAIN,downloaddispatch.itunes.apple.com
+DOMAIN,init.itunes.apple.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-KEYWORD,buy.itunes.apple.com
 
 # App and static content delivery
 DOMAIN,audiocontentdownload.apple.com
 DOMAIN,download.developer.apple.com
 DOMAIN,itunes.com
-DOMAIN,playgrounds-assets-cdn.apple.com
-DOMAIN,playgrounds-cdn.apple.com
+DOMAIN,playground-assets-cdn.apple.com
+DOMAIN,playground-cdn.apple.com
 DOMAIN,ppq.apple.com
 DOMAIN,store.apple.com
 DOMAIN,sylvan.apple.com
@@ -107,6 +120,7 @@ DOMAIN,swdownload.apple.com
 DOMAIN,swscan.apple.com
 DOMAIN,wkms-public.apple.com
 DOMAIN,xp.apple.com
+DOMAIN,xp-cdn.apple.com
 DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
 
 # Web, diagnostics, and associated domains
