@@ -23,11 +23,6 @@ DOMAIN,time-ios.apple.com
 DOMAIN,time-macos.apple.com
 DOMAIN,time.apple.com
 
-# Apple Account
-DOMAIN,account.apple.com
-DOMAIN,gsa.apple.com
-DOMAIN,idmsa.apple.com
-
 # Certificate validation and security
 DOMAIN,certs.apple.com
 DOMAIN,crl.apple.com
@@ -38,26 +33,10 @@ DOMAIN,valid.apple.com
 DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,safebrowsing.apple
 
-# iCloud, Find My, and shared content
-DOMAIN,apple-native-relay.apple.com
-DOMAIN,fmfmobile.icloud.com
-DOMAIN,fmipmobile.icloud.com
-DOMAIN,metrics.icloud.com
-DOMAIN,pong.icloud.com
-DOMAIN,probe.icloud.com
-DOMAIN,statici.icloud.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
+# iCloud services hosted in China mainland
 DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,gc.apple.com
-DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-content.com.cn
-DOMAIN-SUFFIX,icloud.apple.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,iwork.apple.com
-DOMAIN-SUFFIX,mac.com
-DOMAIN-SUFFIX,me.com
 
 # Maps, weather, and location data
 DOMAIN,gs-loc-cn.apple.com

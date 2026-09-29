@@ -1,9 +1,29 @@
 # NAME: Apple Proxy
 # PURPOSE: Self-maintained Apple services rule set for traffic that requires proxying.
 # ORDER: Place after Apple APNs and before Apple Direct rule sets.
-# SOURCE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list
+# SOURCES:
+# https://support.apple.com/101555
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list
 # NOTE: App Store storefront and download domains (apps.apple.com, appsto.re,
 # cdn-apple.com, blobstore.apple.com) are excluded here and kept in apple_direct.list.
+
+# Apple Account and iCloud
+DOMAIN,account.apple.com
+DOMAIN,apple-native-relay.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,gc.apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,iwork.apple.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-KEYWORD,icloud.com.akadns.net
 
 # Apple services and content
 DOMAIN,api-glb-sea.smoot.apple.com
