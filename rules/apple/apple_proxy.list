@@ -1,13 +1,14 @@
 # NAME: Apple Proxy
 # PURPOSE: Self-maintained Apple services rule set for traffic that requires proxying.
-# ORDER: Place after Apple APNs and before Apple Direct rule sets.
+# ORDER: Place after Apple APNs and Apple Direct rule sets.
 # SOURCES:
 # https://support.apple.com/101555
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list
 # NOTE: Apple Account, storefront, purchase/payment, iCloud, and other
-# region-sensitive services are proxied here. Only region-neutral downloads
-# and static content delivery remain in apple_direct.list.
+# region-sensitive services are proxied here. Broad Apple-owned domain
+# fallbacks make unknown services use the proxy; the preceding Apple Direct
+# rule set only exempts verified region-neutral infrastructure and downloads.
 
 # Apple Account and iCloud
 DOMAIN,account.apple.com
@@ -44,15 +45,38 @@ DOMAIN-SUFFIX,itunes-apple.com.akadns.net
 DOMAIN-KEYWORD,buy.itunes.apple.com
 DOMAIN-KEYWORD,smp-paymentservices.apple.com
 
+# Conservative fallback for unknown Apple services
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple
+DOMAIN-SUFFIX,apple.com.cdn20.com
+DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
+DOMAIN-SUFFIX,apple.com.mwcname.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,ls-apple.com.akadns.net
+DOMAIN-SUFFIX,origin-apple.com.akadns.net
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+
 # Region-sensitive Apple services
+DOMAIN,albert.apple.com
 DOMAIN,bpapi.apple.com
+DOMAIN,cssubmissions.apple.com
+DOMAIN,doh.dns.apple.com
+DOMAIN,edge.apple
+DOMAIN,fba.apple.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,gs-loc.apple.com
 DOMAIN,humb.apple.com
 DOMAIN,maps.apple.com
 DOMAIN,sq-device.apple.com
+DOMAIN,static.ips.apple.com
 DOMAIN,stocks-sparkline.apple.com
 DOMAIN,support.apple.com
+DOMAIN,tbsc.apple.com
 DOMAIN,weather-data.apple.com
 DOMAIN,weather-map.apple.com
 DOMAIN,weather-map2.apple.com
@@ -63,6 +87,7 @@ DOMAIN-SUFFIX,apple-maps.cn
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
+DOMAIN-SUFFIX,safebrowsing.apple
 
 # Apple services and content
 DOMAIN,api-glb-sea.smoot.apple.com
