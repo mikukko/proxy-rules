@@ -1,5 +1,5 @@
 # NAME: Apple Direct
-# PURPOSE: Direct-route Apple infrastructure left unmatched by upstream proxy rules.
+# PURPOSE: Direct-route only region-neutral Apple infrastructure and content delivery.
 # ORDER: Place after Apple APNs and Apple Proxy rule sets, before AppleMusic and Apple-AI rule sets.
 # SOURCES:
 # https://support.apple.com/101555
@@ -15,9 +15,7 @@ DOMAIN,albert.apple.com
 DOMAIN,captive.apple.com
 DOMAIN,edge.apple
 DOMAIN,gs.apple.com
-DOMAIN,humb.apple.com
 DOMAIN,static.ips.apple.com
-DOMAIN,sq-device.apple.com
 DOMAIN,tbsc.apple.com
 DOMAIN,time-ios.apple.com
 DOMAIN,time-macos.apple.com
@@ -33,47 +31,19 @@ DOMAIN,valid.apple.com
 DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,safebrowsing.apple
 
-# iCloud services hosted in China mainland
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,icloud-content.com.cn
-DOMAIN-SUFFIX,icloud.com.cn
-
-# Maps, weather, and location data
-DOMAIN,gs-loc-cn.apple.com
-DOMAIN,gs-loc.apple.com
-DOMAIN,maps.apple.com
-DOMAIN,stocks-sparkline.apple.com
-DOMAIN,weather-data.apple.com
-DOMAIN,weather-map.apple.com
-DOMAIN,weather-map2.apple.com
-DOMAIN,weatherkit.apple.com
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apple-maps.cn
-DOMAIN-SUFFIX,cdn-apple-mapkit.com
-
-# App Store storefront and app downloads
-# Keep iTunes hosts explicit so Apple Music endpoints can still use its proxy rule set.
-DOMAIN,bag.itunes.apple.com
-DOMAIN,client-api.itunes.apple.com
+# App Store app downloads after storefront authorization
 DOMAIN,downloaddispatch.itunes.apple.com
-DOMAIN,init.itunes.apple.com
 DOMAIN,iosapps.itunes.apple.com
 DOMAIN,osxapps.itunes.apple.com
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN-KEYWORD,buy.itunes.apple.com
 
 # App and static content delivery
+DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,audiocontentdownload.apple.com
 DOMAIN,download.developer.apple.com
-DOMAIN,itunes.com
 DOMAIN,playground-assets-cdn.apple.com
 DOMAIN,playground-cdn.apple.com
 DOMAIN,ppq.apple.com
-DOMAIN,store.apple.com
 DOMAIN,sylvan.apple.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,mzstatic.com
@@ -84,6 +54,7 @@ DOMAIN-SUFFIX,apple.com.mwcname.com
 # Software updates and recovery
 DOMAIN,appldnld.apple.com
 DOMAIN,configuration.apple.com
+DOMAIN,fcs-keys-pub-prod.cdn-apple.com
 DOMAIN,gdmf-ados.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,gg.apple.com
@@ -97,6 +68,8 @@ DOMAIN,swcdn.apple.com
 DOMAIN,swdist.apple.com
 DOMAIN,swdownload.apple.com
 DOMAIN,swscan.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,updates.cdn-apple.com
 DOMAIN,wkms-public.apple.com
 DOMAIN,xp.apple.com
 DOMAIN,xp-cdn.apple.com
@@ -104,7 +77,6 @@ DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
 
 # Web, diagnostics, and associated domains
 DOMAIN,app-site-association.networking.apple
-DOMAIN,bpapi.apple.com
 DOMAIN,cssubmissions.apple.com
 DOMAIN,diagassets.apple.com
 DOMAIN,fba.apple.com
@@ -112,7 +84,3 @@ DOMAIN,lcdn-locator.apple.com
 DOMAIN,lcdn-registration.apple.com
 DOMAIN,serverstatus.apple.com
 DOMAIN,suconfig.apple.com
-DOMAIN,support.apple.com
-DOMAIN,www.apple.com
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com.cn
