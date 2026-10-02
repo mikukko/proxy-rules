@@ -1,0 +1,1279 @@
+{
+  "checked_on": "2026-10-02",
+  "source_sha256": {
+    "blackmatrix7-crypto.list": "4fe49a0fd839fe32a88640ee891197bfd926faf70c2ea1c812383d02f16184e7",
+    "v2fly-master.tar.gz": "4fce444f0c6479204a39e9fa46122ae84dea2e61f0a985adc144ced90b298fca"
+  },
+  "excluded_rules": [
+    "DOMAIN-SUFFIX,crunchbase.com",
+    "DOMAIN-SUFFIX,ipfs.io",
+    "DOMAIN-KEYWORD,binance",
+    "DOMAIN-KEYWORD,huobi",
+    "DOMAIN-KEYWORD,metamask",
+    "DOMAIN-KEYWORD,okx"
+  ],
+  "excluded_categories": {
+    "wisekey": "General digital identity / cybersecurity company domains",
+    "wynd": "General AI / bandwidth services"
+  },
+  "rules": {
+    "DOMAIN,api-testnet.manepa.jp": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN,api-testnet.spark-fintech.com": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN,api.manepa.jp": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN,api.spark-fintech.com": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN,bybit-exchange.github.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN,bybit.ada.support": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN,d3r7nsslvs6aaf.cloudfront.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/straitsx"
+    ],
+    "DOMAIN,deribit.cdn.prismic.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/deribit"
+    ],
+    "DOMAIN,ethereum.stackexchange.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN,onekey.zendesk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/onekey"
+    ],
+    "DOMAIN,pod-15-sunco-ws.zendesk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/redotpay"
+    ],
+    "DOMAIN,redotpay.zendesk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/redotpay"
+    ],
+    "DOMAIN,rp-static-apne1.s3.ap-northeast-1.amazonaws.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/redotpay"
+    ],
+    "DOMAIN,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/straitsx"
+    ],
+    "DOMAIN,token-api.metaswap.codefi.network": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN,xhpjc6-cdn-settings.appsflyersdk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/redotpay"
+    ],
+    "DOMAIN,zftksc.cdn-settings.appsflyersdk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN,zftksc.launches.appsflyersdk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,1inch.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,1ml.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,aave.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,acinq.co": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,aex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,aicoin.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,aimoon.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,alchemy.com": [
+      "https://www.alchemy.com/docs/get-started"
+    ],
+    "DOMAIN-SUFFIX,apy999.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,arbitrum.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,asproex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/asproex"
+    ],
+    "DOMAIN-SUFFIX,asproexapi.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/asproex"
+    ],
+    "DOMAIN-SUFFIX,avax.network": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,backpack.app": [
+      "https://backpack.app/"
+    ],
+    "DOMAIN-SUFFIX,backpack.exchange": [
+      "https://backpack.app/"
+    ],
+    "DOMAIN-SUFFIX,base.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bestchange.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bestchange"
+    ],
+    "DOMAIN-SUFFIX,bestchange.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bestchange"
+    ],
+    "DOMAIN-SUFFIX,bestchange.ru": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bestchange"
+    ],
+    "DOMAIN-SUFFIX,bgwapi.io": [
+      "https://web3.bitget.com/en/docs/market/websocket"
+    ],
+    "DOMAIN-SUFFIX,bibox.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,binance.cc": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.charity": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.cloud": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.im": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cryptocurrency/Cryptocurrency.list"
+    ],
+    "DOMAIN-SUFFIX,binance.info": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.me": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.us": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binance.vision": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binanceapi.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancecnt.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binanceru.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.be": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.biz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.cc": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.info": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.ink": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.kim": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.link": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.live": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.mobi": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.pro": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.sh": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,binancezh.top": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bingx.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bisq.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bitsquare"
+    ],
+    "DOMAIN-SUFFIX,bisq.network": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bitsquare"
+    ],
+    "DOMAIN-SUFFIX,bitbank.cc": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitcoin.it": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitcoin.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitcoincore.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitcoinity.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitcoinmagazine.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitcointalk.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitcoinvisuals.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitderiv.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitfinex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitflyer.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bitflyer"
+    ],
+    "DOMAIN-SUFFIX,bitflyer.jp": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bitflyer"
+    ],
+    "DOMAIN-SUFFIX,bitget.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitget.org": [
+      "https://www.bitget.org/docs/uta/quick-start"
+    ],
+    "DOMAIN-SUFFIX,bithumb.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitlayer.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitmart.com": [
+      "https://www.bitmart.com/"
+    ],
+    "DOMAIN-SUFFIX,bitmex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitnodes.earn.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bitquick.co": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bitsquare.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bitsquare"
+    ],
+    "DOMAIN-SUFFIX,bitstamp.net": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bittrex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,blast.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,block.one": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,blockchain.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,blockchair.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,blockfrost.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,bloks.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bmwweb.solutions": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bnappweb.black": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bnappzh.co": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bnappzh.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bnappzh.mobi": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bnbchain.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bnbstatic.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bntrace.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,boba.network": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bsappapi.cc": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bsappapi.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bsc.getblock.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bscdnweb.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,bscscan.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,btc.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,btcbox.co.jp": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,byabcde.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,byapis.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,byapps.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bybdc6.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bybit-global.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bybit.ae": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN-SUFFIX,bybit.biz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bybit.cloud": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bybit.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bybit.eu": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN-SUFFIX,bybit.id": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN-SUFFIX,bybit.kz": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN-SUFFIX,bybit.tr": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN-SUFFIX,bybitgeorgia.ge": [
+      "https://bybit-exchange.github.io/docs/v5/guide"
+    ],
+    "DOMAIN-SUFFIX,bybitglobal.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bycbe.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bycsi.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,byd3c3.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bymj.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,bytetree.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,bytick.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit"
+    ],
+    "DOMAIN-SUFFIX,cbeci.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cex.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,chainalysis.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,chainbroker.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,chainid.network": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,chippay.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,clearpool.finance": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coin.dance": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,coinalyze.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinbase.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinbasecdn.net": [
+      "https://ctf-assets-01.coinbasecdn.net/c5bd0wqjc7v0/7yR5JAFpTqMiDaMbyKQhao/adcb89d37cca5ebfdbad563ce83586fa/Coinbase_Global_Privacy_Policy_-_exported_20240125_-_before_changes.pdf"
+    ],
+    "DOMAIN-SUFFIX,coincheck.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,coincheckup.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,coincodex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,coindesk.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinex.com": [
+      "https://www.coinex.com/"
+    ],
+    "DOMAIN-SUFFIX,coingate.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coingecko.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinglass.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinmap.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinmarketcap.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,coinmetrics.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,coinone.co.kr": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/coinone"
+    ],
+    "DOMAIN-SUFFIX,coinonecore.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/coinone"
+    ],
+    "DOMAIN-SUFFIX,coinonecorp.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/coinone"
+    ],
+    "DOMAIN-SUFFIX,coinowo.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cointrendz.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,compound.finance": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,coredao.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,crypto.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,crypto51.app": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cryptoart.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cryptocompare.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,cryptofees.info": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cryptomus.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,cryptoquant.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cryptorank.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,cryptoslam.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,curve.fi": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,cyberx.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,dapp.review": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,dappradar.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,dcabtc.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,debank.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,defieye.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,defillama.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,defipulse.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,defirate.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,delets.online": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,deribit.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/deribit"
+    ],
+    "DOMAIN-SUFFIX,devcon.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ethereum"
+    ],
+    "DOMAIN-SUFFIX,dexscreener.com": [
+      "https://dexscreener.com/"
+    ],
+    "DOMAIN-SUFFIX,dextools.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,digiconomist.net": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,docs.lotu.sh": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,dogecoin.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,dovemetrics.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,dropsearn.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,drpc.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,duneanalytics.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,dydx.exchange": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,earni.fi": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,eos.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,eosflare.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,eospark.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,eostracker.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ethereum-magicians.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ethereum.cn": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ethereum.foundation": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ethereum"
+    ],
+    "DOMAIN-SUFFIX,ethereum.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ethereum"
+    ],
+    "DOMAIN-SUFFIX,ethermine.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ethernodes.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,etherscan.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,etherscan.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ethereum"
+    ],
+    "DOMAIN-SUFFIX,ethfans.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ethgasstation.info": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ewapool.net": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,f2pool.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,fantom.foundation": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,fantom.network": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,fiat24.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,filecoin.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,flare.network": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,flashbots.net": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,fragment.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,ftx.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,fundingrates.xyz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,gate.ac": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,gate.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gate.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gate.tv": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gateapi.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gatedata.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gateimg.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gateio.live": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gateio.services": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gateio"
+    ],
+    "DOMAIN-SUFFIX,gateio.ws": [
+      "https://www.gate.com/docs/developers/apiv4/en/"
+    ],
+    "DOMAIN-SUFFIX,gemini.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,glassnode.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,gmgn.ai": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,guardarian.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,hashflow.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,hbabit.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,hbfile.net": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,heco-scan.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,hecochain.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,hecoview.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,helius-rpc.com": [
+      "https://www.helius.dev/docs/api-reference/endpoints"
+    ],
+    "DOMAIN-SUFFIX,helius.dev": [
+      "https://www.helius.dev/docs"
+    ],
+    "DOMAIN-SUFFIX,htx.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobi.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobi.me": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobi.pro": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobi.sc": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobiasia.vip": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobigroup.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,huobitoken.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi"
+    ],
+    "DOMAIN-SUFFIX,hyperliquid.xyz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,icodrops.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,infura.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,intotheblock.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,invity.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,isafepal.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/safepal"
+    ],
+    "DOMAIN-SUFFIX,jaxx.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,jup.ag": [
+      "https://developers.jup.ag/"
+    ],
+    "DOMAIN-SUFFIX,korbit.co.kr": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,kraken.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kraken"
+    ],
+    "DOMAIN-SUFFIX,kraken.onl": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kraken"
+    ],
+    "DOMAIN-SUFFIX,kucoin.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kucoin"
+    ],
+    "DOMAIN-SUFFIX,kucoin.plus": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kucoin"
+    ],
+    "DOMAIN-SUFFIX,ledger.com": [
+      "https://www.ledger.com/"
+    ],
+    "DOMAIN-SUFFIX,lighter.exchange": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/lighter"
+    ],
+    "DOMAIN-SUFFIX,lighter.xyz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/lighter"
+    ],
+    "DOMAIN-SUFFIX,lightning.community": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,lightning.engineering": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,liquid.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,litecoin.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,loanscan.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,localbitcoins.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/localbitcoins"
+    ],
+    "DOMAIN-SUFFIX,localbitcoinschain.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/localbitcoins"
+    ],
+    "DOMAIN-SUFFIX,makerdao.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,makersplace.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,maple.finance": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,masternodes.online": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,mdex.co": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,mdex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,mdex.me": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,mdex.one": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,megaeth.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,merkl.xyz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,metalpha.finance": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,metamask.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,mexc.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,mexc.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,mexc.io": [
+      "https://www.mexc.io/api-docs/futures/integration-guide"
+    ],
+    "DOMAIN-SUFFIX,mexcsensors.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,myetherwallet.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,mytokenapi.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,nansen.ai": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,nexo.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nexo"
+    ],
+    "DOMAIN-SUFFIX,nexo.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nexo"
+    ],
+    "DOMAIN-SUFFIX,nftcalendar.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,nftgo.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,nftscan.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,nftstatic.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,nodereal.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,nonfungible.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,nyctale.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,oasis.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,okex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,oklink.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx-dns.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx-dns1.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx-dns2.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx.ac": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx.cab": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,onekey-asset.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/onekey"
+    ],
+    "DOMAIN-SUFFIX,onekey.so": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/onekey"
+    ],
+    "DOMAIN-SUFFIX,onekeycn.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/onekey"
+    ],
+    "DOMAIN-SUFFIX,onemoment.cc": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,onfinality.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,opensea.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,optimism.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,osl.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,pancakeswap.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,pancakeswap.finance": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,parity.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,paxful.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,payget.pro": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,phantom.app": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,phemex.com": [
+      "https://phemex.com/"
+    ],
+    "DOMAIN-SUFFIX,platov.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,poloniex.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,poly.network": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,polymarket.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,poolin.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,quicknode.com": [
+      "https://www.quicknode.com/docs/ethereum"
+    ],
+    "DOMAIN-SUFFIX,quiknode.pro": [
+      "https://www.quicknode.com/guides/quicknode-products/how-to-use-multichain-endpoint"
+    ],
+    "DOMAIN-SUFFIX,rabby.io": [
+      "https://rabby.io/"
+    ],
+    "DOMAIN-SUFFIX,ramon.cash": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,ramon.money": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,raydium.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,redotpay.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/redotpay"
+    ],
+    "DOMAIN-SUFFIX,ripple.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,rsk.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,saasexch.cc": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,saasexch.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,saasexch.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,saasexch.info": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,saasexch.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance"
+    ],
+    "DOMAIN-SUFFIX,safepal.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/safepal"
+    ],
+    "DOMAIN-SUFFIX,satoshilabs.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,solana.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,solidifi.app": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,solscan.io": [
+      "https://solscan.io/"
+    ],
+    "DOMAIN-SUFFIX,stateofthedapps.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,stealthex.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,straitsx.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/straitsx"
+    ],
+    "DOMAIN-SUFFIX,sunswap.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,sushi.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,synthetix.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,taiko.xyz": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,tether.to": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,theblock.co": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,thegraph.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,thetie.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,thirdweb.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,token.im": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,tokenpocket.pro": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,tokenterminal.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,tokenview.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,tradeblock.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,traderjoexyz.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,tradingview.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,trezor.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,tronlink.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,tronscan.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,truefi.io": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,trustwallet.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/trustwallet"
+    ],
+    "DOMAIN-SUFFIX,trustwalletapp.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,unisat.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,uniswap.org": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,upbit.com": [
+      "https://www.upbit.com/"
+    ],
+    "DOMAIN-SUFFIX,vfat.tools": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,viewbase.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,vitalik.ca": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,walletconnect.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,walletconnect.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,watchtheburn.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,wbtc.network": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,web3modal.org": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,wintermute.com": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,xlayer.tech": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx"
+    ],
+    "DOMAIN-SUFFIX,zapper.fi": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cryptocurrency"
+    ],
+    "DOMAIN-SUFFIX,zb.app": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zb"
+    ],
+    "DOMAIN-SUFFIX,zb.com": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zb"
+    ],
+    "DOMAIN-SUFFIX,zb.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zb"
+    ],
+    "DOMAIN-SUFFIX,zb.live": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list",
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zb"
+    ],
+    "DOMAIN-SUFFIX,zklighter.elliot.ai": [
+      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/lighter"
+    ],
+    "DOMAIN-SUFFIX,zkscan.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ],
+    "DOMAIN-SUFFIX,zksync.io": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Crypto/Crypto.list"
+    ]
+  }
+}

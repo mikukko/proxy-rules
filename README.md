@@ -12,6 +12,7 @@
 | Augment | [`augment.list`](rules/augment/augment.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/augment/augment.list) |
 | ByteDance Direct | [`bytedance_direct.list`](rules/bytedance/bytedance_direct.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/bytedance/bytedance_direct.list) |
 | Cursor | [`cursor.list`](rules/cursor/cursor.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/cursor/cursor.list) |
+| Crypto | [`crypto.list`](rules/crypto/crypto.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/crypto/crypto.list) |
 | Mikukko | [`mikukko.list`](rules/mikukko/mikukko.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/mikukko/mikukko.list) |
 | Windsurf | [`windsurf.list`](rules/windsurf/windsurf.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/windsurf/windsurf.list) |
 
@@ -24,6 +25,8 @@ DOMAIN-SUFFIX,example.com
 ```
 
 仓库只提供匹配规则，不包含 `DIRECT`、`PROXY` 等具体策略。请在所使用的代理配置中自行指定策略。
+
+`Crypto` 覆盖交易所及备用/API/CDN 域名、钱包、行情、DeFi、区块浏览器和 RPC 服务，需放在通用 Cloudflare、Proxy、Global、Direct 和 IP 规则之前，并指定 `Crypto` 策略。`DOMAIN-SUFFIX,bybit.biz` 已覆盖 `api3.bybit.biz:443`；域名规则不写端口。来源、覆盖范围及 Surge 接入说明见 [Crypto 说明](rules/crypto/README.md)。
 
 ## 维护
 
