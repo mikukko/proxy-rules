@@ -9,12 +9,9 @@
 | Apple APNs | [`apple_apns.list`](rules/apple/apple_apns.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/apple/apple_apns.list) |
 | Apple Direct | [`apple_direct.list`](rules/apple/apple_direct.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/apple/apple_direct.list) |
 | Apple Proxy | [`apple_proxy.list`](rules/apple/apple_proxy.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/apple/apple_proxy.list) |
-| Augment | [`augment.list`](rules/augment/augment.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/augment/augment.list) |
 | ByteDance Direct | [`bytedance_direct.list`](rules/bytedance/bytedance_direct.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/bytedance/bytedance_direct.list) |
-| Cursor | [`cursor.list`](rules/cursor/cursor.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/cursor/cursor.list) |
 | Crypto | [`crypto.list`](rules/crypto/crypto.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/crypto/crypto.list) |
 | Mikukko | [`mikukko.list`](rules/mikukko/mikukko.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/mikukko/mikukko.list) |
-| Windsurf | [`windsurf.list`](rules/windsurf/windsurf.list) | [Raw](https://raw.githubusercontent.com/mikukko/proxy-rules/master/rules/windsurf/windsurf.list) |
 
 > `Apple APNs` 应优先于其他 Apple 规则加载，以便为推送流量指定独立策略。`Apple Direct` 是地区无关基础设施白名单，放在 `Apple APNs` 之后，仅让已完成商店鉴权的 App 下载、静态 CDN、系统更新和证书等已确认地区无关的流量直连。`Apple Proxy` 紧跟其后，承接 Apple Account、App Store 商店与支付、iCloud、地图和天气等地区敏感服务，并用 Apple 根域名兜底代理所有未明确列入直连白名单的新服务。AppleMusic 和 Apple-AI 等上游代理规则放在两者之后。`ByteDance Direct` 需放在 TikTok 等字节系代理规则之前，避免抖音国内 API 与 CDN 域名被误送入代理。`Mikukko` 收录个人自有域名及其子域名，建议放在通用代理规则之前，并在客户端为其指定普通代理策略，无需链式代理。
 
