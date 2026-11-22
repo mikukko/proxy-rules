@@ -1,0 +1,13 @@
+# NAME: APTV Domain
+# PURPOSE: Route overseas APTV / PPV portal and EPG domains via a single-hop proxy instead of chained relay.
+# ORDER: Place in the NON-IP section (before GEOIP,CN,DIRECT) to avoid slow local DNS lookups.
+# NOTE: Assign a single-hop proxy policy (e.g. Bandwagon-Snell or 链式代理前置); chained relay is unnecessary.
+
+# PPV / IPTV portals and CNAME targets
+DOMAIN-SUFFIX,3691065.site
+DOMAIN-SUFFIX,ppvservices.st
+DOMAIN-SUFFIX,dndnscloud.ru
+DOMAIN-SUFFIX,linednline.ru
+
+# APTV official EPG
+DOMAIN,epg.aptv.app

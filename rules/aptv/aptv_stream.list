@@ -1,0 +1,20 @@
+# NAME: APTV Stream
+# PURPOSE: Catch dynamic bare-IP streaming edges and non-standard HTTP ports after 302 redirects on iOS Surge (which lacks PROCESS-NAME).
+# ORDER: Place AFTER domestic/DIRECT rules and GEOIP,CN,DIRECT, and BEFORE FINAL, so domestic IPTV sources stay DIRECT.
+# NOTE: Assign a single-hop proxy policy (e.g. Bandwagon-Snell or 链式代理前置).
+
+# APTV HTTP player & app User-Agent (matches plain HTTP handled by Surge HTTP engine)
+USER-AGENT,AptvPlayer*
+USER-AGENT,APTV*
+
+# Streaming edge & asset ASNs (no-resolve ensures only bare-IP connections match without extra DNS lookups)
+# AS27161: Litnics, LLC (primary video stream edges, e.g. 206.212.244.x)
+IP-ASN,27161,no-resolve
+# AS60068: Datacamp Limited / CDN77 (auth redirect & multi-region stream edges, e.g. 89.187.x.x / 79.127.x.x / 143.244.x.x)
+IP-ASN,60068,no-resolve
+# AS36352: HostPapa (channel logos & portal host, e.g. 192.236.222.212)
+IP-ASN,36352,no-resolve
+# AS395954: Leaseweb USA (secondary stream edges, e.g. 23.80.81.x)
+IP-ASN,395954,no-resolve
+# AS328867: Corebach Backbone SARL (secondary HK stream edges, e.g. 185.243.7.x)
+IP-ASN,328867,no-resolve
